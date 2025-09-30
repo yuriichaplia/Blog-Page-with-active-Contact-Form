@@ -7,7 +7,7 @@ The upgraded version of the two previous projects that has an active contact for
 + PASSWORD=app_password_for_my_email
 
 #### When you fill the contact form with details (e.g. your email, name, message etc) and click send button, if the operation has been successful you will get a message from MY_EMAIL to TO_EMAIL with following details: 
-Name: name_provided_in_contact_form
-Email: email_provided_in_contact_form
-Phone number: phone_number_provided_in_contact_form
+Name: name_provided_in_contact_form<br>
+Email: email_provided_in_contact_form<br>
+Phone number: phone_number_provided_in_contact_form<br>
 Message: your message
