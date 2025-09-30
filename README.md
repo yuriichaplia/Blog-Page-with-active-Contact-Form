@@ -2,12 +2,19 @@
 The upgraded version of the two previous projects that has an active contact form.
 
 #### To get the form working you need to create .env file in the root folder with three variables:
-+ TO_EMAIL=email_to_receive_messages<br>
-+ MY_EMAIL=email_to_send_messages_from<br>
-+ PASSWORD=app_password_for_my_email
 
-#### When you fill the contact form with details (e.g. your email, name, message etc) and click send button, if the operation has been successful you will get a message from MY_EMAIL to TO_EMAIL with following details: 
-Name: name_provided_in_contact_form<br>
-Email: email_provided_in_contact_form<br>
-Phone number: phone_number_provided_in_contact_form<br>
-Message: your message
+- `TO_EMAIL` → the email address that will receive messages  
+- `MY_EMAIL` → the email address used to send messages  
+- `PASSWORD` → the app password for `MY_EMAIL`  
+
+## Usage  
+
+When you fill out the contact form (your **name, email, phone number, and message**) and click **Send**, the app will:  
+
+- Send an email **from** `MY_EMAIL` **to** `TO_EMAIL`.  
+- The email will contain the following details:  
+  - **Name:** name provided in the form  
+  - **Email:** email provided in the form  
+  - **Phone Number:** phone number provided in the form  
+  - **Message:** your message  
+
